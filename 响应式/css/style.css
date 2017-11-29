@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 1150px;
+    text-align: center;
+}
+.col{
+    width: 33.333333%;
+    height: 300px;
+    float: left;
+}
+
+@media(max-width: 1150px){
+    .container{
+        width:960px;
+    }
+}
+
+@media(max-width: 960px){
+    .container{
+        width:90%;
+    }
+    .col{
+        width: 100%;
+    }
+}
