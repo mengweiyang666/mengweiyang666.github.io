@@ -1,5 +1,5 @@
-.container{
-    background-color:#CA4040 ;
+body{
+    background-image:url(../img/100.jpg);
 }
 .thumbnail img{
     width: 283px;
@@ -7,6 +7,7 @@
 }
 .thumbnail{
     text-align: center;
+    background-image:url(../img/100.jpg);
 }
 .row{
     padding: 20px;
