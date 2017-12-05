@@ -1,4 +1,14 @@
+.container{
+    background-color:#CA4040 ;
+}
 .thumbnail img{
     width: 283px;
     height: 142px;
+}
+.thumbnail{
+    text-align: center;
+}
+.row{
+    padding: 20px;
+
 }
