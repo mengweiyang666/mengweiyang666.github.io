@@ -1,0 +1,26 @@
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
+
+.swiper-slide{
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.swiper-slide:nth-child(1){
+    background-color: #CA4040;
+}
+.swiper-slide:nth-child(2){
+    background-color: #4390EE;
+}
+.swiper-slide:nth-child(3){
+    background-color: #FF8604;
+}
+.swiper-slide:nth-child(4){
+    background-color: black;
+}
+.swiper-slide:nth-child(5){
+    background-color: green;
+}
