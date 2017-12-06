@@ -1,26 +1,27 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
 .swiper-container {
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
-
-.swiper-slide{
-
-    color: white;
-    font-size: 30px;
+.swiper-slide {
     text-align: center;
+    font-size: 18px;
+    background: #fff;
 }
-.swiper-slide:nth-child(1){
-    background-color: #CA4040;
-}
-.swiper-slide:nth-child(2){
-    background-color: #4390EE;
-}
-.swiper-slide:nth-child(3){
-    background-color: #FF8604;
-}
-.swiper-slide:nth-child(4){
-    background-color: black;
-}
-.swiper-slide:nth-child(5){
-    background-color: green;
+.swiper-button-next {
+    transform: rotateZ(90deg);
+     position: absolute;
+    top: 95%;
+    left:50%;
 }

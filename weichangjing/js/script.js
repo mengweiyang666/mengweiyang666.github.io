@@ -1,25 +1,12 @@
-var mySwiper = new Swiper ('.swiper-container', {
-    direction: 'horizontal',
-    effect : 'cube',
-
-    // 如果需要分页器
+var swiper = new Swiper('.swiper-container', {
+    loop : true,
+    direction: 'vertical',
+    effect : 'flip',
     pagination: {
         el: '.swiper-pagination',
+        clickable:false,
     },
-
-    // 如果需要前进后退按钮
     navigation: {
         nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
     },
-
-
-    cubeEffect: {
-        slideShadows: true,
-        shadow: true,
-        shadowOffset: 100,
-        shadowScale: 0.6
-    },
-
-
-})
+});
