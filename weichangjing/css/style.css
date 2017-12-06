@@ -19,9 +19,68 @@ body {
     font-size: 18px;
     background: #fff;
 }
+
+
 .swiper-button-next {
     transform: rotateZ(90deg);
      position: absolute;
     top: 95%;
     left:50%;
 }
+
+
+
+/*
+    .s1 第一屏样式 开始
+*/
+
+
+.s1{
+    background: url(../img/bj.png);
+    height: 100%;
+    position: relative;
+}
+.header img:nth-of-type(1){
+    width: 32px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.header img:nth-of-type(2){
+    width: 64px;
+    position: absolute;
+    top: 90px;
+    left: 270px;
+}
+.header img:nth-of-type(3){
+    width: 50px;
+    position: absolute;
+    top: 425px;
+    left: 35px;
+}
+.header img:nth-of-type(4){
+    width: 50px;
+    position: absolute;
+    top:410px;
+    left: 280px;
+}
+.header img:nth-of-type(5){
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.main img:nth-of-type(1){
+    width: 50%;
+    position: absolute;
+
+}
+
+.main img:nth-of-type(2){
+    width: 80%;
+    position: absolute;
+    top: 140px;
+    left: 68px;
+}
+
