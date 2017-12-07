@@ -146,3 +146,43 @@ body {
  }
 
 
+.s2{
+    background: url(../img/bj.png);
+    height: 100%;
+    color: #00deb4;
+}
+.s2 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+.s2 small {
+     margin-top: 10px;
+     display: block;
+     font-size: 14px;
+     letter-spacing: 5px;
+ }
+
+.s2 h2::before,
+.s2 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s2 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s2 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
