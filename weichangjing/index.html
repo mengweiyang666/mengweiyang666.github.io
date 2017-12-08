@@ -5,7 +5,9 @@
     <title>微场景</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.min.css">
+    <!--动画插件-->
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,22 +17,22 @@
         <div class="swiper-slide">
             <div class="s1">
                 <div class="header">
-                    <img src="img/1.png" alt="">
-                    <img src="img/2.png" alt="">
-                    <img src="img/3.png" alt="">
-                    <img src="img/4.png" alt="">
-                    <img src="img/6.png" alt="">
+                    <img src="img/1.png" class="ani" alt=""swiper-animate-effect="swing" swiper-animate-duration="1s" swiper-animate-delay="0.1s">
+                    <img src="img/2.png" class="ani" alt=""swiper-animate-effect="swing" swiper-animate-duration="1s" swiper-animate-delay="0.2s">
+                    <img src="img/3.png" class="ani" alt=""swiper-animate-effect="swing" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                    <img src="img/4.png" class="ani" alt=""swiper-animate-effect="swing" swiper-animate-duration="1s" swiper-animate-delay="0.4s">
+                    <img src="img/6.png" class="ani" alt=""swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.1s"alt="">
                 </div>
 
                 <div class="main">
-                    <img src="img/7.png" alt="">
-                    <img src="img/8.png" alt="">
-                    <p class="img9">梦想起航 . 再创辉煌</p>
+                    <img src="img/7.png" class="ani" alt=""swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay="0.8s alt="">
+                    <img src="img/8.png" class="ani" alt=""swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay="0.8s alt="">
+                    <p class="img9 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="1s">梦想起航 . 再创辉煌</p>
                 </div>
 
                 <div class="footer">
-                    <p>盛邦升华</p>
-                    <p>2018年1月18日晚8:00-11:00</p>
+                    <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="1s">盛邦升华</p>
+                    <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1s">2018年1月18日晚8:00-11:00</p>
                     <p>
                         <img src="img/10.png" alt="">
                         <img src="img/11.png" alt="">
@@ -42,19 +44,19 @@
         </div>
         <div class="swiper-slide">
             <div class="s2">
-                <h2>
+                <h2 class="ani">
                     领导致辞
                     <small>LEADER SPAEECH</small>
                 </h2>
                 <div>
-                    <img src="img/12.png" alt="">
-                    <p>亲爱的同志们,大家晚上好。</p>
-                    <p>我们成立于2009年，现在有员工300多名，我们专注于移动互联网与信息互动社区领域，坚持“技术领先，理念领先
+                    <img src="img/12.png" alt=""class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="0.8">
+                    <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1s">亲爱的同志们,大家晚上好。</p>
+                    <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2.5s" swiper-animate-delay="1s">我们成立于2009年，现在有员工300多名，我们专注于移动互联网与信息互动社区领域，坚持“技术领先，理念领先
                         ，管理领先”的发展战略，2015完成公司整修改制，变更为股份有限公司，倾力打造具有自主知识产权的高端
                     移动分发平台致力于帮助移动互联网用户移动设备开放，便捷的互联网服务。</p>
-                    <p>我们秉着“真诚，团结，主动，责任”的企业文化，励志深圳移动互联网，打造研发和运营一体的产业链，成为移动互联网
+                    <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="3s" swiper-animate-delay="1s">我们秉着“真诚，团结，主动，责任”的企业文化，励志深圳移动互联网，打造研发和运营一体的产业链，成为移动互联网
                     行业值得用户尊敬和信赖的公司。</p>
-                    <span>孟氏企业</span>
+                    <span class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.4s" swiper-animate-delay="1s">孟氏企业</span>
                 </div>
             </div>
 
@@ -74,6 +76,8 @@
 
 <!-- Swiper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.min.js"></script>
+<!--动画JS-->
+<script src="js/swiper.animate1.0.2.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

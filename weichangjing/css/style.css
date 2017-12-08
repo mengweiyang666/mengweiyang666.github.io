@@ -54,30 +54,35 @@ body {
     position: absolute;
     top: 120px;
     left: 50px;
+    animation: swing infinite;
 }
 .header img:nth-of-type(2){
     width: 64px;
     position: absolute;
     top: 90px;
     left: 270px;
+    animation: swing infinite ;
 }
 .header img:nth-of-type(3){
     width: 50px;
     position: absolute;
     top: 425px;
     left: 35px;
+    animation: swing infinite;
 }
 .header img:nth-of-type(4){
     width: 50px;
     position: absolute;
     top:410px;
     left: 280px;
+    animation:  swing infinite;
 }
 .header img:nth-of-type(5){
     width: 70%;
     position: absolute;
     top: 21%;
     left: 15%;
+
 }
 
 .main img:nth-of-type(1){
@@ -177,6 +182,7 @@ body {
     background-size: contain;
     margin-left: -95px;
     margin-top: 10px;
+    animation:  fadeInLeft infinite;
 }
 
 .s2 h2::after {
@@ -208,7 +214,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     margin-bottom: 10px;
 }
 
