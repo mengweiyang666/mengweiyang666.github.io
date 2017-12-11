@@ -285,7 +285,7 @@ body {
 
 
 
-
+/*第三屏*/
 
 .s3{
     background: url(../img/bj.png);
@@ -327,4 +327,56 @@ body {
     margin-left: 66px;
     margin-top: 10px;
     top: 0;
+}
+.s3 h3{
+    background:-webkit-radial-gradient(rgba(225,0,0,0),rgba(5,97,120,0.8)) ;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    line-height: 62px;
+
+}
+.s3 h3:nth-of-type(1){
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    line-height:130px;
+    font-size: 30px;
+    position: absolute;
+    top: 285px;
+    left: 33%;
+}
+.s3 h3:nth-of-type(2){
+    position: absolute;
+    top: 200px;
+    left: 20%;
+}
+.s3 h3:nth-of-type(3){
+    position: absolute;
+    top: 200px;
+    left: 60%;
+}
+.s3 h3:nth-of-type(4){
+    position: absolute;
+    top: 320px;
+    left: 3%;
+}
+.s3 h3:nth-of-type(5){
+    position: absolute;
+    top: 320px;
+    left: 79%;
+}
+.s3 h3:nth-of-type(6){
+    position: absolute;
+    top: 460px;
+    left: 20%;
+}
+.s3 h3:nth-of-type(7){
+    position: absolute;
+    top: 460px;
+    left: 60%;
+}
+.s3 p{
+    font-size: 14px;
 }
