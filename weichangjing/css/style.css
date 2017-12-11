@@ -39,6 +39,47 @@ body {
 
 
 
+
+/*音频制作*/
+#mp3Btn{
+    z-index: 100;
+    position: absolute;
+    top:4%;
+    right:4%;
+    width: 30px;
+    height: 30px;
+    background:rgba(0,0,0,0.49);
+    border-radius: 360px;
+    line-height: 28px;
+    text-align: center;
+    border: 2px solid #6d6868;
+    cursor: pointer;
+    transform: rotateZ(0deg);
+    animation: mp3key 4s;
+    /*一直执行*/
+    animation-iteration-count: infinite;
+    /*匀速执行*/
+    animation-timing-function:linear;
+    /*默认运行动画*/
+    animation-play-state:running;
+}
+
+@keyframes mp3key {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+#mp3Btn img{
+    width: 12px;
+    padding-top:4px;
+}
+
+
 /*
     .s1 第一屏样式 开始
 */
@@ -240,4 +281,50 @@ body {
     bottom: -10px;
     left: 50%;
     margin-left: -60px;
+}
+
+
+
+
+
+.s3{
+    background: url(../img/bj.png);
+    height: 100%;
+    color: #00deb4;
+}
+.s3 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+.s3 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s3 h2::before,
+.s3 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s3 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+    animation:  fadeInLeft infinite;
+}
+
+.s3 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
 }
