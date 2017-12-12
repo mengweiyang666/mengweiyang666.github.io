@@ -31,7 +31,7 @@ body {
 
 
 .swiper-button-next {
-    transform: rotateZ(90deg);
+    transform: rotateZ(-90deg);
      position: absolute;
     top: 95%;
     left:50%;
@@ -95,7 +95,8 @@ body {
     position: absolute;
     top: 120px;
     left: 50px;
-    animation: swing infinite;
+    animation: swing infinite ;
+    transform-origin: center;
 }
 .header img:nth-of-type(2){
     width: 64px;
@@ -103,6 +104,7 @@ body {
     top: 90px;
     left: 270px;
     animation: swing infinite ;
+    transform-origin: center;
 }
 .header img:nth-of-type(3){
     width: 50px;
@@ -110,6 +112,7 @@ body {
     top: 425px;
     left: 35px;
     animation: swing infinite;
+    transform-origin: center;
 }
 .header img:nth-of-type(4){
     width: 50px;
@@ -117,6 +120,7 @@ body {
     top:410px;
     left: 280px;
     animation:  swing infinite;
+    transform-origin: center;
 }
 .header img:nth-of-type(5){
     width: 70%;
@@ -186,10 +190,34 @@ body {
 .s1 .footer p img:nth-of-type(1){
     position: absolute;
     left: -40px;
-}.s1 .footer p img:nth-of-type(2){
+    bottom:-74px;
+    animation: bl1 2s linear infinite alternate;
+}
+.s1 .footer p img:nth-of-type(2){
      position: absolute;
      left: -90px;
+    bottom:-74px;
+     animation: bl2 2s linear infinite alternate;
  }
+@keyframes bl1 {
+    0%{
+        left: -40px;
+    }
+    100%{
+        left: -80px;
+    }
+
+}
+@keyframes bl2 {
+    0%{
+        left: -90px;
+    }
+    100%{
+        left: -50px;
+    }
+
+}
+
 
 
 .s2{
@@ -283,6 +311,42 @@ body {
     margin-left: -60px;
 }
 
+
+
+.s2 .bl p:nth-of-type(1) img{
+    height: 60px;
+    width: 155%;
+    position: absolute;
+    bottom:-141px;
+    left: -53px;
+    animation: bl3 2s linear infinite alternate;
+}
+.s2 .bl p:nth-of-type(2) img{
+    height: 60px;
+    width: 155%;
+    position: absolute;
+    bottom:-141px;
+    left: -100px;
+     animation: bl4 2s linear infinite alternate;
+ }
+@keyframes bl3 {
+    0%{
+        left: -53px;
+    }
+    100%{
+        left: -100px;
+    }
+
+}
+@keyframes bl4 {
+    0%{
+        left: -100px;
+    }
+    100%{
+        left: -50px;
+    }
+
+}
 
 
 /*第三屏*/
@@ -399,4 +463,37 @@ body {
     bottom: 100px;
     left: 70px;
     letter-spacing: 2px;
+}
+
+.s3 .bl2 p:nth-of-type(1) img{
+    height: 60px;
+    position: absolute;
+    bottom:-100px;
+    left: -53px;
+    animation: bl5 2s linear infinite alternate;
+}
+.s3 .bl2 p:nth-of-type(2) img{
+    height: 60px;
+    position: absolute;
+    bottom:-120px;
+    left: -100px;
+    animation: bl6 2s linear infinite alternate;
+}
+@keyframes bl5 {
+    0%{
+        left: -53px;
+    }
+    100%{
+        left: -100px;
+    }
+
+}
+@keyframes bl6 {
+    0%{
+        left: -100px;
+    }
+    100%{
+        left: -50px;
+    }
+
 }
