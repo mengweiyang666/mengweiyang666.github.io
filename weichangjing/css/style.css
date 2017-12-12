@@ -456,7 +456,7 @@ body {
     top: 440px;
     left: 60%;
 }
-.s3 p:nth-of-type(1){
+.s3 span:nth-of-type(1){
     height: 40px;
     width: 5px;
     background: #01f1ce;
@@ -465,14 +465,14 @@ body {
     bottom: 100px;
     left: 44px;
 }
-.s3 p:nth-of-type(2){
+.s3 p:nth-of-type(1){
     font-size: 14px;
     position: absolute;
     bottom: 120px;
     left: 70px;
     letter-spacing: 2px;
 }
-.s3 p:nth-of-type(3){
+.s3 p:nth-of-type(2){
     font-size: 14px;
     position: absolute;
     bottom: 100px;
@@ -483,14 +483,14 @@ body {
 .s3 .bl2 p:nth-of-type(1) img{
     height: 60px;
     position: absolute;
-    bottom:-100px;
+    bottom:-120px;
     left: -53px;
     animation: bl5 2s linear infinite alternate;
 }
 .s3 .bl2 p:nth-of-type(2) img{
     height: 60px;
     position: absolute;
-    bottom:-120px;
+    bottom:-100px;
     left: -100px;
     animation: bl6 2s linear infinite alternate;
 }
