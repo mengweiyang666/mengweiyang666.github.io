@@ -99,12 +99,15 @@ body {
     .s1 第一屏样式 开始
 */
 
-
-.s1{
+.s1,.s2,.s3,.s4,.s5,.s6,.s7{
     background: url(../img/bj.png);
+    width: 100%;
     height: 100%;
     position: relative;
+    color:#00deb4;
+
 }
+
 .header img:nth-of-type(1){
     width: 32px;
     position: absolute;
@@ -235,11 +238,7 @@ body {
 
 
 
-.s2{
-    background: url(../img/bj.png);
-    height: 100%;
-    color: #00deb4;
-}
+
 .s2 h2 {
     font-size: 26px;
     position: relative;
@@ -366,11 +365,7 @@ body {
 
 /*第三屏*/
 
-.s3{
-    background: url(../img/bj.png);
-    height: 100%;
-    color: #00deb4;
-}
+
 .s3 h2 {
     font-size: 26px;
     position: relative;
@@ -519,12 +514,7 @@ body {
 
 
 /*          第四屏*/
-.s4{
-    background: url(../img/bj.png);
-    height: 100%;
-    width:100%;
-    position: absolute;
-}
+
 .s4 h2 {
     font-size: 26px;
     position: relative;
@@ -780,12 +770,7 @@ body {
 
 /*      第五屏*/
 
-.s5{
-    background: url(../img/bj.png);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
+
 .s5 h2 {
     font-size: 26px;
     position: relative;
@@ -952,12 +937,6 @@ body {
 
 
 /*          第六屏*/
-.s6{
-    background: url(../img/bj.png);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
 
 .s6 h2 {
     font-size: 26px;
@@ -1149,6 +1128,151 @@ body {
     }
 }
 @keyframes bl12 {
+    0%{
+        left: -95px;
+    }
+    100%{
+        left: -135px;
+    }
+}
+
+
+
+
+
+
+/*          第七屏*/
+
+
+.s7 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+    color:#00d7b2;
+}
+
+.s7 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s7 h2::before,
+.s7 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s7 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s7 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+.s7 #mm {
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 55%;
+    left: 10%;
+
+}
+
+.s7 #mm img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+.s7 #mm input{
+    position: absolute;
+    width: 90%;
+    height: 14%;
+}
+.s7 #mm input:nth-of-type(1){
+    top: 10%;
+    left: 5%;
+}
+.s7 #mm input:nth-of-type(2){
+    top: 28%;
+    left: 5%;
+}
+.s7 #mm input:nth-of-type(3){
+    top: 46%;
+    left: 5%;
+}
+.s7 #mm button{
+    color:#fff;
+    background: #00f2ca;
+    width: 90%;
+    height: 14%;
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+.s7 #mm p{
+    color:#00f2ca;
+    font-size: 16px;
+    position: absolute;
+}
+.s7 #mm p:nth-of-type(1){
+    top:83%;
+    left: 17%;
+}
+.s7 #mm p:nth-of-type(2){
+    top:89%;
+    left: 14%;
+}
+
+
+
+
+
+.s7 .footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.s7 .footer p {
+    height: 70px;
+}
+
+.s7 .footer img {
+    position: absolute;
+    height: 70px;
+}
+
+.s7 .footer img:nth-of-type(1) {
+    left: 0;
+    animation:bl13 2s linear infinite alternate;
+}
+
+.s7 .footer img:nth-of-type(2) {
+    left: -95px;
+    animation:bl14 2s linear infinite alternate;
+}
+@keyframes bl13 {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 50px;
+    }
+}
+@keyframes bl14 {
     0%{
         left: -95px;
     }
